@@ -1,0 +1,99 @@
+body{ overflow-x:hidden}
+/*index*/
+/*checkbox的颜色*/
+.ivu-checkbox-wrapper-checked .ivu-checkbox-checked .ivu-checkbox-inner{border-color: #F89800;background-color: #F89800;}
+/*折叠面板*/
+.ivu-collapse{border: none;}
+.ivu-collapse-item i{display: none;}
+.ivu-collapse-item.ivu-collapse-item-active{background: #fff;}
+.ivu-collapse-item.ivu-collapse-item-active .ivu-collapse-content{background: #F9F9F9;padding-top: 24px;}
+.List .ivu-collapse .ivu-collapse-item .ivu-collapse-header{height: 50px;line-height: 50px;}
+/*首页新增地址input*/
+.content .ivu-input,.add .ivu-input,.dialog-content .ivu-input{height: 50px;line-height: 50px;border: 1px solid #CCCCCC;}
+.content .ivu-input:focus,.dialog-content .ivu-input:focus,.add .ivu-input:focus,.pwd .ivu-input:focus{border-color: #F89800;box-shadow: none;}
+.content .ivu-input:hover,.dialog-content .ivu-input:hover,.add .ivu-input:hover,.pwd .ivu-input:hover{border-color: #F89800;box-shadow: none;}
+/*switch开关*/
+.pwd .ivu-switch-checked{border-color: #F89800;background-color: #F89800;}
+/*遮盖层*/
+.mask{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: rgba(17,17,20,0.5);z-index: 98;}
+/*浮动*/
+.pull-left{float: left;}
+.pull-right{float: right;}
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+/*行内块元素*/
+.inline-block{display: inline-block;*display: inline;*zoom: 1;}
+/*四周阴影*/
+.box-shadow{box-shadow: 0px 0px 1px 1px #ccc;}
+
+.mb-10{margin-bottom: 10px;}
+.font-14{font-size: 14px;}
+.font-16{font-size: 16px;}
+.font-18{font-size: 18px;}
+.font-20{font-size: 20px;}
+.font-22{font-size: 22px;}
+.font-24{font-size: 24px;}
+
+.bgcf0{background: #F0F5F9}
+.col-F89{color: #F89800;}
+.col-ccc{color: #ccc;}
+.col-666{color: #666;}
+.col-333{color: #333;}
+.col-333{color: #999;}
+.lineH-28{line-height: 28px;}
+.w20{width: 20%;}
+
+.py10{padding: 10px 0;}
+
+.cursor-p{cursor: pointer;}
+
+.text-center{text-align: center;}
+
+.modal .ivu-btn.ivu-btn-primary.ivu-btn-large{border-color: #F89800;background-color: #F89800;}
+
+/*按钮*/
+button.alt{background: #F89800;color: #fff;padding: 10px 40px;border-radius: 6px;font-size: 16px;outline: none;border: none;cursor: pointer;}
+button.btn{background: #fff;color: #F89800;border: 1px solid #F89800;margin-top: 20px;cursor: pointer;}
+button.def{background: #fff;color: #999999;border: 1px solid #999999;}
+
+/*pay*/
+.content .ivu-select-single .ivu-select-selection {height: 50px;line-height: 50px;border: 1px solid #CCCCCC;}
+.content .ivu-select-single .ivu-select-selection .ivu-select-placeholder,.content .ivu-select-single .ivu-select-selection .ivu-select-selected-value{height: 50px;line-height: 50px;}
+.content .ivu-select-visible .ivu-select-selection{border-color:#F89800;}
+.content .ivu-select-single .ivu-select-selection:hover{border-color:#F89800;}
+.content .ivu-select-single .ivu-select-selection:focus{border-color:#F89800;}
+.xm .ivu-btn-large:hover{color:#F89800;}
+.xm .ivu-btn-primary{border-color:#F89800;background-color: #F89800;color: #fff;}
+.xm .ivu-btn-primary:hover{border-color:#F89800;background-color: #F89800;color: #fff;}
+.xm .ivu-btn-primary:focus{border-color:#F89800;color: #fff;}
+ul li{list-style: none;}
+
+::-webkit-scrollbar {
+ width: 8px;
+ height: 3px;
+}
+::-webkit-scrollbar-track {
+ background-color:#ccc;
+ -webkit-border-radius: 2em;
+ -moz-border-radius: 2em;
+ border-radius:2em;
+}
+::-webkit-scrollbar-thumb {
+ background-color:#333;
+ -webkit-border-radius: 2em;
+ -moz-border-radius: 2em;
+ border-radius:2em;
+}
+
+.upl .ivu-upload .ivu-upload-drag{background: #F0F5F9;border:1px solid #ccc;height: 166px; line-height: 166px; color: #F89800; margin-top: 64px;font-size: 14px;}
+.layout .ivu-divider{background: #ccc;}
+.ivu-icon{cursor: pointer;}
+
+.ivu-modal-wrap{display:flex;justify-content:center;align-items:center;}
+.ivu-modal-wrap .ivu-modal{position: initial;top: 0;}
+.ivu-modal-wrap .ivu-modal .ivu-modal-header-inner{color: #F89800;font-weight:initial;}
+.ivu-modal-wrap .ivu-modal .ivu-modal-body p{color:#333;font-size: 14px;}
+
+.ellipsis{display: block; width: 84%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+
+.homeImgBox img{position: absolute;top: 0;left: 0;}
